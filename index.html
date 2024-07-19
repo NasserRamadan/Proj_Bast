@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="dist/images/favicon-32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <title>Bastardos Inglórios</title>
+</head>
+
+<body>
+  <div class="bg__principal">
+    <header class="header">
+      <div class="header__container">
+        <a href="./">
+          <img src="./dist/images/max_logo.png" alt="max logo">
+        </a>
+        <nav>
+          <ul class="header header__list">
+            <li class="header__list__item">
+              <a href="#">Inicio</a>
+            </li>
+            <li class="header__list__item">
+              <a href="#">Séries</a>
+            </li>
+            <li class="header__list__item">
+              <a href="#">Filmes</a>
+            </li>
+            <li class="header__list__item">
+              <a href=""><img src="./dist/images/hbo_logo.png" alt="hbo logo"></a>
+            </li>
+            <li class="header__list__item">
+              <a href="#">Crianças & Família</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header header__imgs">
+          <a href=""><img src="./dist/images/icons/search.svg" alt="icone de pesquisa"></a>
+          <a href=""><img src="./dist/images/icons/star.svg" alt="icone de favorito"></a>
+          <a href=""><img src="./dist/images/avatar.png" alt=""></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__img1">
+        <img src="./dist/images/logo_bast_inglo.png" alt="logo bastardos inglórios">
+      </div>
+      <div class="main__info">
+        <img src="./dist/images/age_18.png" alt="idade mínima para assistir">
+        <span>2 hr 31 min</span>
+        <span>2009</span>
+        <span>4K UHD</span>
+        <img src="./dist/images/dolby.png" alt="dolby audio">
+        <img src="./dist/images/ad.png" alt="ad audio">
+      </div>
+      <div class="main__buttons">
+        <button>
+          <img src="./dist/images/icons/play.svg" alt="play">
+          Retome
+        </button>
+        <button>
+          <img src="./dist/images/icons/rotate-ccw.svg" alt="reiniciar">
+          Reiniciar
+        </button>
+      </div>
+      <div class="main__add main__add--hover">
+        <img src="./dist/images/icons/plus.svg" alt="logo de mais para adicionar a lista">
+        <span>Minha lista</span>
+      </div>
+      <div class="main__text">
+        <p>Durante a Segunda Guerra Mundial, na França invadida pelos nazistas, um grupo de soldados americanos de sangue judeu, conhecido como ‘The Basterds’ (Os Bastardos), é selecionado para espalhar medo para aqueles que impuseram as duras regras do Terceiro Reich. A missão do Grupo, liderado pelo visceral tenente Aldo Raine, é escalpelar e exterminar brutalmente os nazistas, sem medir consequências.
+        </p>
+        <div class="main__text__film">
+          <span>Ação
+            ·
+            Drama 
+            ·
+            Emocionante
+            ·
+            Corajoso</span>
+        </div>
+        <span>A disponibilidade de 4K UHD, HDR e Dolby Atmos depende do plano e do dispositivo.</span>
+      </div>
+    </main>
+  </div>
+  <section class="do__like">
+    <div class="do__like__containerTitle">
+      <h3 data-like-title="like" class="do__like__title">Você também pode gostar</h3>
+      <h3 data-like-title="details" class="do__like__title">Detalhes</h3>
+    </div>
+    <hr>
+    <div data-tab-id="like" class="do__like__container ativo">
+      <ul class="do__like__list">
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme7.png" alt="banner filme 7">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme6.png" alt="banner filme 6">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme5.png" alt="banner filme 5">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme4.png" alt="banner filme 4">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme3.png" alt="banner filme 3">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme2.png" alt="banner filme 2">
+          </a>
+        </li>
+        <li class="do__like__list__item">
+          <a href="#">
+            <img src="./dist/images/filme1.png" alt="banner filme 1">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section data-tab-id="details" class="details">
+    <h4 class="details__title">Informações de classificação</h4>
+    <picture class="details__img">
+      <span>Drogas lícitas, violência extrema, violência</span>
+    </picture>
+    <h4 class="details__title">Idiomas das legendas</h4>
+    <p class="details__text">Português, English</p>
+    <h4 class="details__title">Estrelando</h4>
+    <p class="details__text" id="stars">Brad Pitt, Christoph Waltz, Mélanie Laurent</p>
+    <h4 class="details__title">Diretor</h4>
+    <p class="details__text">Quentin Tarantino</p>
+
+  <footer class="footer">
+    <p class="footer__text">© 2024 WarnerMedia Direct, LLC. Todos os direitos reservados.</p>
+    <div class="footer__container">
+      <ul class="footer__container__list">
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#a5a5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-youtube">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+              </path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#a5a5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-twitter">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+              </path>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#a5a5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-facebook">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#a5a5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-instagram">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg fill="none" stroke="#a5a5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24"
+              height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+              <path
+                d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-5.394 10.692 6.33 6.33 0 0 0 10.857-4.424V8.687a8.182 8.182 0 0 0 4.773 1.526V6.79a4.831 4.831 0 0 1-1.003-.104z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__container__list">
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">Política de Privacidade</a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">Termos de Uso</a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">Gerenciar preferências de cookies</a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">Info</a>
+        </li>
+        <li class="footer__container__list__item">
+          <a href="#" class="footer__container__list__item__link">Ajuda</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./src/scripts/main.js"></script>
+</body>
+</html>

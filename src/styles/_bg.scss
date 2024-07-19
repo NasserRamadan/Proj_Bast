@@ -1,0 +1,14 @@
+.bg__principal {
+  background: url("../images//banner_principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+  opacity: 0.8;
+  margin-bottom: 16px;
+
+  @media(max-width: 600px){
+    background: url("../../dist/images/banner_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,47 @@
+.details{
+  padding: 0 60px;
+  color: #fff;
+  margin-bottom: 100px;
+  display: none;
+  margin-top: 32px;
+
+  &.ativo{
+    display: block;
+  }
+
+  &__img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__title{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+    @media(max-width: 600px){
+      font-size: .875rem;
+    }
+  }
+  
+  &__text{
+    font-size: .875rem;
+    margin-bottom: 20px;
+    color: #9f9494;
+    font-family: 'Robotos', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    @media(max-width: 600px){
+      font-size: .75rem;
+    }
+  }
+
+  #stars{
+    max-width: 700px;
+  }
+}
